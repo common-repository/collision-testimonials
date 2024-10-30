@@ -1,0 +1,23 @@
+/****************************************
+ * Collision Testimonials
+ * Admin CSS Rules
+ *
+ * Author: Backend Labs, Inc.
+ * Author URI: http://www.backendlabs.com
+ ****************************************/
+
+td.featured a.feat, td.featured a.unfeat:hover {
+	width:18px;
+	height:18px;
+	display:block;
+	background:url('../images/star.png') no-repeat top center;
+}
+
+td.featured a.unfeat, td.featured a.feat:hover {
+	width:18px;
+	height:18px;
+	display:block;
+	background:url('../images/blankstar.png') no-repeat top center;
+}
+
+td.featured a.feat span, td.featured a.unfeat span {display:none;}
